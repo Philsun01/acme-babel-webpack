@@ -4,6 +4,7 @@ import People from './People';
 import Places from './Places';
 import Things from './Things';
 import Nav from './Nav';
+import axios from 'axios';
 
 class App extends React.Component{
   constructor(){
