@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack",
-    "webpack:dev": "webpack --mode=development --watch"
+    "webpack:dev": "webpack --mode=development --watch",
+    "start:dev": "npm run webpack:dev & nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -35,6 +36,7 @@
     "webpack-cli": "^3.3.9"
   },
   "dependencies": {
-    "axios": "^0.19.0"
+    "axios": "^0.19.0",
+    "express": "^4.17.1"
   }
 }
