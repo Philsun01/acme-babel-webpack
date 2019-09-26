@@ -1,4 +1,9 @@
-const { HashRouter, Link, NavLink, Route, Switch } = ReactRouterDOM;
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { HashRouter, NavLink, Route } from 'react-router-dom';
+
+
+//const  = ReactRouterDOM;
 
       const People = ({ people })=> {
         return (
@@ -82,3 +87,5 @@ const { HashRouter, Link, NavLink, Route, Switch } = ReactRouterDOM;
       }
 
       ReactDOM.render(<App />, document.querySelector('#root'));
+
+
